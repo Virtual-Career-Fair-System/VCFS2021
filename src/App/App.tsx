@@ -12,7 +12,8 @@ import Blog from '../components/Blog';
 const useStyles = makeStyles({
   appMain:{
     paddingLeft:'320px',
-    width: '100%'
+    width: '10%'
+
 
   }
 })
