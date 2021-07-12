@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Main(props) {
+const Main = (props) => {
   const classes = useStyles();
   const { posts, title } = props;
 
@@ -36,3 +36,5 @@ Main.propTypes = {
   posts: PropTypes.array,
   title: PropTypes.string,
 };
+
+export default Main;
