@@ -1,13 +1,13 @@
 import React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
-import Container from '@material-ui/core/Container';
+import {Container} from "react-bootstrap";
 import Header from '../header/Header';
 import MainFeaturedPost from './MainFeaturedPost';
 import FeaturedPost from './FeaturedPost';
 import Sidebar from './Sidebar';
 import Footer from '../footer/Footer';
-import {featuredPosts,mainFeaturedPost,useStyles,sections,sidebar} from './homeConstants'
+import {featuredPosts,mainFeaturedPost,useStyles,sections,sidebar} from './homeConstants';
 
 const Home = () => {
     const classes = useStyles();
@@ -15,8 +15,8 @@ const Home = () => {
     return (
         <React.Fragment>
             <CssBaseline/>
-            <Container maxWidth="lg">
-                <Header title="Home" sections={sections}/>
+            <Header title="Career Fair UCSC" sections={sections}/>
+            <Container fluid={true}>
                 <main>
                     <MainFeaturedPost post={mainFeaturedPost}/>
                     <Grid container spacing={4}>

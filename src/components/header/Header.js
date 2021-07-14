@@ -7,13 +7,14 @@ import SearchIcon from '@material-ui/icons/Search';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import useStyles from "./headerConstants";
+import {Container} from "react-bootstrap";
 
 const Header= (props) => {
     const classes = useStyles();
     const {sections, title} = props;
 
     return (
-        <React.Fragment>
+            <Container fluid={true}>
             <Toolbar className={classes.toolbar}>
                 <Button size="small">Subscribe</Button>
                 <Typography
@@ -47,7 +48,7 @@ const Header= (props) => {
                     </Link>
                 ))}
             </Toolbar>
-        </React.Fragment>
+            </Container>
     );
 }
 

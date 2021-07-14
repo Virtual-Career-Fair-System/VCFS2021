@@ -10,16 +10,13 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const sections = [
-    {title: 'Technology', url: '#'},
-    {title: 'Design', url: '#'},
-    {title: 'Culture', url: '#'},
-    {title: 'Business', url: '#'},
-    {title: 'Politics', url: '#'},
-    {title: 'Opinion', url: '#'},
-    {title: 'Science', url: '#'},
-    {title: 'Health', url: '#'},
-    {title: 'Style', url: '#'},
-    {title: 'Travel', url: '#'},
+    {title: 'Home', url: '#'},
+    {title: 'Current Events', url: '#'},
+    {title: 'About Us', url: '#'},
+    {title: 'News', url: '#'},
+    {title: 'Students', url: '#'},
+    {title: 'Companies', url: '#'},
+    {title: 'Contact Us', url: '#'},
 ];
 
 const mainFeaturedPost = {
@@ -33,7 +30,7 @@ const mainFeaturedPost = {
 
 const featuredPosts = [
     {
-        title: 'Featured post',
+        title: 'Students',
         date: 'Nov 12',
         description:
             'This is a wider card with supporting text below as a natural lead-in to additional content.',
@@ -41,7 +38,7 @@ const featuredPosts = [
         imageText: 'Image Text',
     },
     {
-        title: 'Post title',
+        title: 'Companies',
         date: 'Nov 11',
         description:
             'This is a wider card with supporting text below as a natural lead-in to additional content.',
