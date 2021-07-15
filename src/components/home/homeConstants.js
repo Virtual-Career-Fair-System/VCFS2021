@@ -9,16 +9,6 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const sections = [
-    {title: 'Home', url: '#'},
-    {title: 'Current Events', url: '#'},
-    {title: 'About Us', url: '#'},
-    {title: 'News', url: '#'},
-    {title: 'Students', url: '#'},
-    {title: 'Companies', url: '#'},
-    {title: 'Contact Us', url: '#'},
-];
-
 const mainFeaturedPost = {
     title: 'Title of a longer featured blog post',
     description:
@@ -71,4 +61,4 @@ const sidebar = {
     ],
 }
 
-export {featuredPosts,mainFeaturedPost,useStyles,sections,sidebar};
+export {featuredPosts,mainFeaturedPost,useStyles,sidebar};

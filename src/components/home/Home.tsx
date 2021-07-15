@@ -7,15 +7,15 @@ import MainFeaturedPost from './MainFeaturedPost';
 import FeaturedPost from './FeaturedPost';
 import Sidebar from './Sidebar';
 import Footer from '../footer/Footer';
-import {featuredPosts,mainFeaturedPost,useStyles,sections,sidebar} from './homeConstants';
+import {featuredPosts,mainFeaturedPost,useStyles,sidebar} from './homeConstants';
 
-const Home = () => {
+const Home:React.FC = () => {
     const classes = useStyles();
 
     return (
         <React.Fragment>
             <CssBaseline/>
-            <Header title="Career Fair UCSC" sections={sections}/>
+            <Header title="Career Fair UCSC"/>
             <Container fluid={true}>
                 <main>
                     <MainFeaturedPost post={mainFeaturedPost}/>
