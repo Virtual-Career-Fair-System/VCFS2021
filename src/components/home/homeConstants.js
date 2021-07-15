@@ -9,19 +9,6 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const sections = [
-    {title: 'Technology', url: '#'},
-    {title: 'Design', url: '#'},
-    {title: 'Culture', url: '#'},
-    {title: 'Business', url: '#'},
-    {title: 'Politics', url: '#'},
-    {title: 'Opinion', url: '#'},
-    {title: 'Science', url: '#'},
-    {title: 'Health', url: '#'},
-    {title: 'Style', url: '#'},
-    {title: 'Travel', url: '#'},
-];
-
 const mainFeaturedPost = {
     title: 'Title of a longer featured blog post',
     description:
@@ -33,7 +20,7 @@ const mainFeaturedPost = {
 
 const featuredPosts = [
     {
-        title: 'Featured post',
+        title: 'Students',
         date: 'Nov 12',
         description:
             'This is a wider card with supporting text below as a natural lead-in to additional content.',
@@ -41,7 +28,7 @@ const featuredPosts = [
         imageText: 'Image Text',
     },
     {
-        title: 'Post title',
+        title: 'Companies',
         date: 'Nov 11',
         description:
             'This is a wider card with supporting text below as a natural lead-in to additional content.',
@@ -74,4 +61,4 @@ const sidebar = {
     ],
 }
 
-export {featuredPosts,mainFeaturedPost,useStyles,sections,sidebar};
+export {featuredPosts,mainFeaturedPost,useStyles,sidebar};
